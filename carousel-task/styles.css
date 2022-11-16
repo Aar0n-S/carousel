@@ -223,7 +223,7 @@ footer {
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
   }
@@ -317,7 +317,7 @@ footer {
     top: 1px;
   }
   .slider > a:focus {
-    background: #000;
+    background: #255941;
   }
   
   /* Don't need button navigation */
@@ -325,4 +325,8 @@ footer {
     .slider > a {
       display: none;
     }
+  }
+
+  .slide-image {
+    border-radius: 10px;
   }
